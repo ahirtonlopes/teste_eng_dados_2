@@ -2,17 +2,13 @@
 
 O seguinte teste tem por premissa ser um problema base (Ref. <a href="https://teaching.cornell.edu/teaching-resources/engaging-students/problem-based-learning">problem based learning</a>) de modo que você pode usá-lo como achar adequado tendo em vista a demonstração de seus conhecimentos técnicos.
 
-Queremos entender melhor seu jeito de atacar problemas desafiadores em amostras de mundo real, além de que, do modo que está estruturada, a entrega, apesar de rápida, nos permite verificar mais detalhes de seu perfil profissional tais como organização, pontualidade e percepção quanto a suas skills de data wrangling, validação e governança, programação Python e entendimento dos serviços GCP (em especial Clod Run, BigQuery e BigTable).
-
-Recomendamos ainda que o teste seja feito em no máximo 4 horas (não se preocupe em respostas muito detalhadas ou em complexidades que simplesmente não funcionariam no mundo real!).
+Queremos entender melhor seu jeito de atacar problemas desafiadores em ambiente GCP como no trabalho do dia a dia. Portanto, recomendamos ainda que o teste seja feito em no máximo 4 horas (não se preocupe em respostas muito detalhadas ou em complexidades que simplesmente não funcionariam no mundo real!).
 
 As entrega deve ser via envio de link para um github público (ou similar) o qual contenha sua solução para o cenário a seguir:
 
 ## Cenário
 
-No seguinte cenário você é a pessoa engenheira de dados por trás do projeto de data ops junto a uma grande operadora de cartões de crédito.
-
-Os dados a serem ingeridos e analisados em nossa plataforma de Big Data são dados de compras (trasacao), documentos (contrato) e dados de compradores (cliente).
+No seguinte cenário você é a pessoa engenheira de dados por trás do projeto de data ops junto a uma grande operadora de cartões de crédito. Os dados a serem ingeridos e analisados em nossa plataforma de Big Data são dados de compras (trasacao), documentos (contrato) e dados de compradores (cliente).
 
 ## Entregáveis
 
@@ -30,19 +26,10 @@ Lembre-se que, como parte do entregável, esperamos que alguns comentários seja
 
 Ou seja, temos o seguinte entregável:
 
-- Arquitetura exemplo da ingestão anterior (ecossistema GCP);
+- Arquitetura exemplo de ingestão de dados (ecossistema GCP);
 
 ## O que será avaliado?
 
 1. Buscamos soluções bem definidas e baseadas em método: soube mostrar quais as hipóteses levantadas? Precisou ao menos de modo resumido o por que escolheu determinado caminho? Quais os prós e contras usados para se basear essa solução e quais os passos para implementá-la?
 2. Qualidade dos entregável da arquitetura proposta.
 3. Se tivesse mais tempo, o que você faria para melhorar a sua solução?
-
-
-## 
-
-“Perception is strong and sight weak. In strategy it is important to see distant things as if they were close and to take a distanced view of close things.”
-
-Miyamoto Musashi. Japanese martial artist, philosopher, strategist, writer, artist (1584-1645).
-
-がんばろう
