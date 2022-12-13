@@ -8,11 +8,11 @@ As entrega deve ser via envio de link para um github público (ou similar) o qua
 
 ## Cenário
 
-No seguinte cenário você é a pessoa engenheira de dados por trás do projeto de data ops junto a uma grande operadora de cartões de crédito. Os dados a serem ingeridos e analisados em nossa plataforma de Big Data são dados de compras (trasacao), documentos (contrato) e dados de compradores (cliente).
+No seguinte cenário você é a pessoa engenheira de dados por trás do projeto de data ops junto a uma grande operadora de cartões de crédito. Os dados a serem ingeridos e analisados em nossa plataforma de Big Data são dados de compras (trasacao), documentos (contrato) e dados de compradores (cliente), advindos de um ftp, os quais devem ser alvo de um processo de ETL e disponibilizados via API.
 
 ## Entregável
 
--1) Imagine que o Json das notas fiscais é disponibilizado em uma API. Como você utilizaria as tecnologias da GCP para ingerir, transformar e, eventualmente, carregar esses dados em um BigTable? 
+-1) Imagine que o Json das notas fiscais e outros arquivos devem ser disponibilizados em uma API, advindos de um ftp. Como você utilizaria as tecnologias da GCP para ingerir, transformar e, eventualmente, carregar esses dados em um BigTable (você tem liberdade quanto a montagem dessa última camada de serviço)? 
 
 Este entregável consiste na construção de uma arquitetura de ingestão dos dados de nota fiscal do entregável anterior (como visto <a href="https://www.crystalloids.com/hs-fs/hubfs/Screenshot%202022-02-04%20at%2009-44-40-png.png?width=1232&name=Screenshot%202022-02-04%20at%2009-44-40-png.png">aqui</a>), a qual deve atender aos seguintes pontos:
 
@@ -20,7 +20,7 @@ Este entregável consiste na construção de uma arquitetura de ingestão dos da
 - Descrições de funcionamento (se necessário);
 - Nomes de tecnologias em ecossistema GCP (serviços, conectores, bibliotecas e módulos).
 
-Será apreciado como esforço extra se você conseguir avançar mais na aplicação além desse ponto.
+Será apreciado como esforço extra se você conseguir avançar mais na aplicação para além do já mencionado.
 
 Lembre-se que, como parte do entregável, esperamos que alguns comentários sejam incluídos em sua solução; queremos entender melhor como foi seu processo de solução de problemas, quais as hipóteses levantadas e, se tivesse mais tempo, como você poderia melhorar a implementação proposta (desenvolvimento incremental).
 
